@@ -17,7 +17,7 @@ export default async function MealSlugPage({params}){
         <header className={classes.header} >
             <div className={classes.image}>
                 <Image 
-                  src={`https://ashutosh-nextjs-demo-users-image.s3.ap-south-1.amazonaws.com${meal.image}`}
+                  src={`https://ashutosh-nextjs-demo-users-image.s3.ap-south-1.amazonaws.com/${meal.image}`}
                 alt={meal.title} 
                 fill  
                 sizes="(max-width: 768px) 100vw, 
